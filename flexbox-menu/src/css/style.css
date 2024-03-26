@@ -1,0 +1,46 @@
+body{
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+        
+.navegacao{
+  display: flex;
+  gap: 40px;
+}
+
+.padrao{
+  padding: 10px 15px;
+}
+.sessao:active{
+  background-color: var(--cor-padrao);
+  color: #fff;
+}
+.sessao:hover{
+  background-color: var(--cor-padrao);
+  color: #fff;
+}
+.botao{
+  background-color: var(--cor-padrao);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 15,px;
+}

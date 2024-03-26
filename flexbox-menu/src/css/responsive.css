@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+  body {
+    padding: 0;
+    position: relative;
+    min-height: calc(100vh - 40px);
+  }
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+    padding: 30px;
+    gap: 20px;
+  }
+  .navegacao {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0;
+    font-size: 40px;
+    position: relative;
+    min-height: calc(100vh - 40px);
+  }
+  .logo {
+    font-size: 40px;
+  }
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  .navegacao {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .botao {
+    font-size: 18px;
+  }
+}
