@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: hsl(227, 10%, 46%);
+}
+
+.fundo .bg{
+  position: fixed;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+}
+.top{
+  top: -125%;
+  left: -50%;
+}
+ .bottom{
+  bottom: -125%;
+  right: -50%;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 20px;
+}
+.destaque {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.detalhe {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 59%);
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.capa {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.informacoes {
+  margin: 70px auto 20px auto;
+}
+.foto {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  top: 35%;
+}
+
+hr {
+  background-color: hsl(0, 0%, 59%);
+}
+
+.engajamento {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+
+.attribution {
+  color: black;
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.attribution a {
+  color: darkblue;
+}
