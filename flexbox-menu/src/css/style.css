@@ -2,36 +2,33 @@ body{
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
 }
 
 .menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 100%;
+  padding: 45px;
 }
 
 .logo{
   display: flex;
   align-items: center;
-  font-size: 20px;
+}
+.logo h1{
   font-weight: 800;
+  font-size: 20px;
 }
         
 .navegacao{
   display: flex;
-  gap: 40px;
+  align-items: center;
+  gap: 20px;
 }
 
 .padrao{
-  padding: 10px 15px;
-}
-.sessao:active{
-  background-color: var(--cor-padrao);
-  color: #fff;
+  padding: 10px 5px;
+  transition: 0.3s ease-in-out
 }
 .sessao:hover{
   background-color: var(--cor-padrao);
@@ -42,5 +39,5 @@ body{
   color: #fff;
   border-radius: 10px;
   font-weight: 300;
-  font-size: 15,px;
+  font-size: 15px;
 }

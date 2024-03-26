@@ -4,3 +4,4 @@ Aqui estão alguns exercícios que fiz sugeridos pelo curso DevQuest-Frontend, e
 <img src="./profile-card/design.jpg">
 <img src="./advice-generator/design/desktop-design.jpg">
 <img src="./flexbox-menu/src/images/Desktop design.png">
+
