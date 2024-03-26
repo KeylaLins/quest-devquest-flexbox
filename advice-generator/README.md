@@ -1,10 +1,10 @@
-# QR-CODE
+# Advice generator app
 
 ## Descrição
 
 Construir um aplicativo com o objetivo que gere conselhos aleatórios.
 
-<img src="./src/images/objetivo.png"  alt="Imagem inicial do desafio">
+<img src="./design/desktop-design.jpg"  alt="Imagem inicial do desafio">
 
 ## Tecnologias utilizadas
 
