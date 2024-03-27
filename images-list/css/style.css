@@ -1,15 +1,36 @@
-
-
-.list {
-  display: flex;
-  align-content: center;
-  padding: 15px 0;
-  gap: 15px;
+body {
+  font-family: "Public Sans", sans-serif;
 }
 
+.list{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
+.imagens{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.imagens li {
+  width: 330px;
+  height: 430px;
+  display: flex;
+  align-items: end;
+}
 
-
+.informacoes{
+  padding: 30px 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+.informacoes h1{
+  font-weight: 700;
+  font-size: 30px;
+}
 
 .rome {
   background: #000 url(../images/rome.svg);
