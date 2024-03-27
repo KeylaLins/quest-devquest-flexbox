@@ -28,5 +28,5 @@ Construir o componente de perfil em um cartão e fazer com que pareça o mais pr
 
 ## Imagens
 
-width: 335px;
-height: 430px;
+Largura: 330px;
+Altura: 430px;
