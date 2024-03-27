@@ -1,0 +1,46 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.list{
+  font-weight: 300;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagens li {
+  width: 335px;
+  height: 430px;
+  display: flex;
+  align-items: end;
+}
+
+.informacoes{
+  padding: 30px 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.informacoes h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.rome {
+  background: #000 url(../images/rome.svg);
+  max-width: 100%;
+}
+.boat {
+  background: #000 url(../images/boat-sea.svg);
+  max-width: 100%;
+}
+.sand {
+  background: #000 url(../images/sand-sea.svg);
+  max-width: 100%;
+}
+.starry {
+  background: #000 url(../images/starry-night.svg);
+  max-width: 100%;
+}

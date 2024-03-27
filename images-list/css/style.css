@@ -1,0 +1,29 @@
+
+
+.list {
+  display: flex;
+  align-content: center;
+  padding: 15px 0;
+  gap: 15px;
+}
+
+
+
+
+
+.rome {
+  background: #000 url(../images/rome.svg);
+  max-width: 100%;
+}
+.boat {
+  background: #000 url(../images/boat-sea.svg);
+  max-width: 100%;
+}
+.sand {
+  background: #000 url(../images/sand-sea.svg);
+  max-width: 100%;
+}
+.starry {
+  background: #000 url(../images/starry-night.svg);
+  max-width: 100%;
+}
