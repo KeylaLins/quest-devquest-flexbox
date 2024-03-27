@@ -1,8 +1,7 @@
 # Exercícios Flexbox
 Aqui estão alguns exercícios que fiz sugeridos pelo curso DevQuest-Frontend, estruturados por HTML5 e estilizados com flexbox em CSS3...
 
-Cartão de perfil<a href="./profile-card/index.html"><img src="./profile-card/design.jpg"></a>
-
+Cartão de perfil<img src="./profile-card/design.jpg">
 ---
 
 Gerador de conselhos
